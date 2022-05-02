@@ -9,10 +9,11 @@ class Question
   end 
 
   def random_number_question_generator
+  num = Random.new
   num1 = num.rand(100)
   num2 = num.rand(100)
   @answer = num1 + num2
-  "What is #{num1} + #{num2} equal to?"
+  puts "What is #{num1} + #{num2} equal to?"
   end 
 
 end 
